@@ -1,0 +1,34 @@
+{
+    "name": "Player Inputs",
+    "maps": [
+        {
+            "name": "Speak",
+            "id": "b2b3b434-8e4a-47bf-8f1a-4d958a598680",
+            "actions": [
+                {
+                    "name": "Greet",
+                    "type": "Button",
+                    "id": "6218c1e8-f857-498b-a015-8a1b942459fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "18ffce48-2b5a-40af-8a71-50888d6fe761",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Greet",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
