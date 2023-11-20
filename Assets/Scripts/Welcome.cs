@@ -19,6 +19,7 @@ public class Welcome : MonoBehaviour
             if(playerWords.Contains(word))
             {
                 animator.SetTrigger("Greetings");
+                return;
             }
         }
     }
